@@ -36,19 +36,19 @@ Este repositorio contiene el código para una aplicación web diseñada para ofr
    npm install
    ```
 2. Inicia el servidor de desarrollo:
-   ```
+   ```bash
    npm start
    ```
 
 ### Back-End
 
 1. Navega a la carpeta del back-end y instala las dependencias:
-   ```
+   ```bash
    cd backend
    npm install
    ```
 2. Inicia el servidor:
-   ```
+   ```bash
    npm start
    ```
 
