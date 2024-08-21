@@ -1,0 +1,22 @@
+.booking-container {
+    padding: 20px;
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }

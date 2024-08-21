@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.blog-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+  z-index: 1000; /* Asegura que el header esté por encima del resto del contenido */
+  padding: 10px 0;
+  font-family: 'Roboto', sans-serif; /* Aplica la fuente deseada */
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: right;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.math-section, .physics-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.image-side {
+  width: 20%;
+  background-size: cover;
+  background-position: center;
+}
+
+.left-side {
+  background-image: url('../images/header.jpg');
+}
+
+.right-side {
+  background-image: url('../images/login-image.jpg');
+}
+
+.content {
+  width: 60%;
+  padding: 20px;
+}
+
+.slider-section {
+  padding: 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.slider {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.slide {
+  min-width: 300px;
+  margin-right: 10px;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
